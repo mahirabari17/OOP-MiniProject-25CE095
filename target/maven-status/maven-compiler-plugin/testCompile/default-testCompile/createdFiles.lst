@@ -1,0 +1,3 @@
+model/AccountTest.class
+util/ValidatorTest.class
+service/BankServiceTest.class
