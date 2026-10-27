@@ -32,8 +32,11 @@ public class MiniBank {
 
         MenuOption[] options = MenuOption.values();
         boolean running = true;
-        while (running && SC.hasNextLine()) {
+        while (running) {
             printMenu(options);
+            if (!SC.hasNextLine()) {
+                break;
+            }
             String input = SC.nextLine().trim();
             int choice;
             try {
