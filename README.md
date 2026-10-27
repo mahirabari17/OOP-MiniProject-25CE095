@@ -16,7 +16,7 @@ JDK 17 or newer (works in GitHub Codespaces). Maven is optional (only for runnin
 
 ## Build and run
 ```bash
-./build.sh                 # compiles and creates minibank.jar
+bash build.sh                  # compiles and creates minibank.jar
 java -jar minibank.jar     # starts the menu (data is stored in ./data)
 ```
 Without the script:
